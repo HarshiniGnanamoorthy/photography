@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo">CAPTURE</a>
+
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#gallery">gallery</a>
+        <a href="#team">team</a>
+        <a href="#contact">contact</a>
+   
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+      
+        <h3>we make every moment special!</h3>
+        <a href="#" class="btn">learm more</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+s
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <h1>Gallery</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/1.jpg" alt="">
+            
+        </div>
+
+        <div class="box">
+            <img src="images/2.jpg" alt="">
+            
+        </div>
+
+        <div class="box">
+            <img src="images/3.jpg" alt="">
+            
+        </div>
+
+        <div class="box">
+            <img src="images/4.jpg" alt="">
+           
+        </div>
+
+        <div class="box">
+            <img src="images/5.jpg" alt="">
+            
+        </div>
+
+        <div class="box">
+            <img src="images/6.jpg" alt="">
+            <div class="info">
+                <h3>photographer</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores.</p>
+                <a href="#" class="btn">learm more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+
+<!-- team section starts  -->
+
+<section class="team" id="team">
+
+    <div class="heading">
+        <h1>Team</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/team-1.png" alt="">
+            <h3>Alice</h3>
+            <span> Photographer</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/team-2.png" alt="">
+            <h3>Robert</h3>
+            <span>Photographer</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/team-3.png" alt="">
+            <h3>John</h3>
+            <span>Photographer</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- team section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <div class="heading">
+        <h1>contact us</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="your name">
+            <input type="email" placeholder="your email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="your number">
+            <input type="text" placeholder="your address">
+        </div>
+        <textarea placeholder="say something" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+       
+
+       
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i> wayanad, india . </p>
+            <p> <i class="fas fa-envelope"></i> capture@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+        </div>
+
+    </div>
+
+    
+
+</div>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+<script> 
+
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+
+menu.addEventListener('click', () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('nav-toggle');
+});
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('nav-toggle');
+}
+
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
